@@ -19,23 +19,22 @@
   <button onclick="DarkMode()">&#9681;</button>
 </div>
 <!--    Side Nav Bar-->
-
 <div id="mySidenav" class="sidenav">
-
   <button class="closebtn" onclick="closeNav()" >&times;</button>
   <button class="tablinks" onclick="openInfo(event, 'home
 ')">&#60; home&#62;</button>
   <button class="tablinks" onclick="openInfo(event, 'category')">&#60;category&#62;</button>
-
   <button class="tablinks" onclick="openInfo(event, 'pattern')">&#60;pattern&#62;</button>
   </div>
-
 <!--    Home-->
-
 <div id="Jenis-Jenis Jaringan" class="tabcontent">
- <p style="margin: 0px;"></p>
+ <p style="https://images.app.goo.gl/YnW31C1GuC6xgd399margin: 0px;"></p>
  <h3>Apa Jenis-jenis jaringan</h3><hr><br>
   <p><mark></mark>Jenis-jenis jaringan komputer yang satu ini dikenal sebagai jenis komputer yang dihitung dari berdasarkan, skala, jarak maupun geografisnya. Maka dari itu, jaringan komputer ini harus dihubugkan berdasarkan cakupan areanya. Berikut penjelasan jenis-jenis jaringan komputer berdasarkan Area-nya :
   
-Jenis-jenis jaringan komputer yang satu ini dikenal sebagai jenis komputer yang dihitung dari berdasarkan, skala, jarak maupun geografisnya. Maka dari itu, jaringan komputer ini harus dihubugkan berdasarkan cakupan areanya. Berikut penjelasan jenis-jenis jaringan komputer berdasarkan Area-nya :
-   1. PAN atau Personal Area Network 
+   1. PAN atau Personal Area Network</p>
+<img
+ src="https://catetanreza.files.wordpress.com/2013/07/pan.jpg">
+  <p><mark></mark>PAN atau singkatan dari Personal Area Network ini merupakan jaringan komputer yang transmisi datanya antara perangkat pribadi saja seperti tablet, komputer, handphone, konsol game dan lain sebagainya. PAN ini juga bisa digunakan untuk mengkomunikasikan antara perangkat komputer pribadi, dalam artian yaitu komunikasi  secara interpersonal.</p>
+ 
+ 
