@@ -20,11 +20,13 @@
 </div>
 <!--    Side Nav Bar-->
 <div id="mySidenav" class="sidenav">
-  <button class="closebtn" onclick="closeNav()" >&times;</button>
-  <button class="tablinks" onclick="openInfo(event, 'home
-')">&#60; home&#62;</button>
-  <button class="tablinks" onclick="openInfo(event, 'category')">&#60;category&#62;</button>
-  <button class="tablinks" onclick="openInfo(event, 'pattern')">&#60;pattern&#62;</button>
+  <button class="closebtn" 
+   onclick="closeNav()" >&times;</button>
+  <button class="tablinks" 
+   onclick="openInfo(event,Sumber Materi jenis-jenis jaringan
+')">&#60; Sumber Materi jenis-jenis jaringan&#62;</button>
+  <button class="tablinks" onclick="openInfo(event, 'Sumber Materi Sistem Operasi Jaringan')">&#60;Sumber Materi Sistem Operasi Jaringan&#62;</button>
+  <button class="tablinks" onclick="openInfo(event, 'Sumber Materi Topologi Jaringan')">&#60;Sumber Materi Topologi Jaringan&#62;</button>
   </div>
 <!--    Home-->
 <div id="Jenis-Jenis Jaringan" class="tabcontent">
@@ -54,5 +56,8 @@ Dan MAN merupakan jaringan yang sering digunakan untuk dapat menghubungkan beber
  <img 
  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXcZ50vs6u3XQPyu8cFXrN92J-H-RWwtEgOmRMW0yF_wYRw9tGfH_DQCa0QYov-rLCYK9XFyKYsc5Jm_g4bZBUbc4zFNALszZjzMX8hQ7cYYh2AJQcP-LagLFhwrgAcu-jRBB_IjJC7wAS__Xz2kRnA44mRiap_D7_Ye4UtAaN3jZBKhlxpFG3yCFMtA/s800/wide-area-network.jpg">
 <p><mark></mark> Yang terakhir yaitu WAN atau singkatan dari Wide Area Network, jenis jaringan ini memiliki cakupan wilayah atau jarak yang sangat luas karena dapat menjangkau hingga seluruh Negara maupun dunia. Nah, pada jaringan WAN ini biasanya telah terdiri dari jenis jaringan seperti LAN dan MAN. Jenis jaringan WAN ini hanya membutuhkan suatu router saja untuk menghubungkan seluruh komputer ke dalam jaringan.</p>
-
+<!-- setup-->
+<div id="Sistem Operasi Jaringan" class="tabcontent">
+  <h3>Pengertian Sistem Operasi jaringan</h3><hr><br>
+  <p><mark></mark>Sebuah jenis sistem operasi yang ditujukan untuk menangani jaringan. Umumnya, sistem operasi ini terdiri atas banyak layanan atau service yang ditujukan untuk melayani pengguna, seperti layanan berbagi berkas, layanan berbagi alat pencetak (printer), DNS Service, HTTP Service, DHCP, remote server dan lain sebagainya.</p>
  
