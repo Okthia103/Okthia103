@@ -15,7 +15,6 @@
   <button style="font-size: 23px;" onclick="openNav()">&#9776;</button>
  <button class="tablinks" onclick="openInfo(event, 'Jenis-Jenis Jaringan')" id="defaultOpen">Jenis-jenis jaringan</button>
   <button class="tablinks" onclick="openInfo(event, 'Sistem Operasi Jaringan')">Sistem Operasi Jaringan</button>
-  <button class="tablinks" onclick="openInfo(event, 'Topologi Jaringan')">Topologi Jaringan</button>
   <button onclick="DarkMode()">&#9681;</button>
 </div>
 <!--    Side Nav Bar-->
@@ -25,8 +24,8 @@
   <button class="tablinks" 
    onclick="openInfo(event,Sumber Materi jenis-jenis jaringan
 ')">&#60; Sumber Materi jenis-jenis jaringan&#62;</button>
-  <button class="tablinks" onclick="openInfo(event, 'Sumber Materi Sistem Operasi Jaringan')">&#60;Sumber Materi Sistem Operasi Jaringan&#62;</button>
-  <button class="tablinks" onclick="openInfo(event, 'Sumber Materi Topologi Jaringan')">&#60;Sumber Materi Topologi Jaringan&#62;</button>
+  <button class="tablinks" onclick="openInfo(event, 'AIML')">&#60;AIML&#62;</button>
+  <button class="tablinks" onclick="openInfo(event, 'SOURCE')">&#60;SOURCE&#62;</button>
   </div>
 <!--    Home-->
 <div id="Jenis-Jenis Jaringan" class="tabcontent">
@@ -60,4 +59,82 @@ Dan MAN merupakan jaringan yang sering digunakan untuk dapat menghubungkan beber
 <div id="Sistem Operasi Jaringan" class="tabcontent">
   <h3>Pengertian Sistem Operasi jaringan</h3><hr><br>
   <p><mark></mark>Sebuah jenis sistem operasi yang ditujukan untuk menangani jaringan. Umumnya, sistem operasi ini terdiri atas banyak layanan atau service yang ditujukan untuk melayani pengguna, seperti layanan berbagi berkas, layanan berbagi alat pencetak (printer), DNS Service, HTTP Service, DHCP, remote server dan lain sebagainya.</p>
- 
+ </dit> 
+ <!--    AIML-->
+<div id="AIML" class="tabcontent">
+   <p style="margin: 0px;"></p>
+   <h3>AIML</h3><hr><br>
+    <p><b>Artificial Intelligence Modelling Language</b><br><b>Developed by:</b> <a href="https://en.wikipedia.org/wiki/Richard_Wallace_(scientist)"> Richard Wallace</a><br><b>Initial release:</b> July 16, 2001; 18 years ago<br><b>Latest release:</b> 2.1 (rev 1.0.2.22)
+(March 9, 2018; 2 years ago<br><b>Type of format:</b> Artificial intelligence<br> <b> Website:</b> <a href="http://www.aiml.foundation/">AIML Foundation</a></p>
+  <h3>What is AIML</h3><hr><br>
+    <p><mark>AIML</mark> stands for Artificial Intelligence Modelling Language. AIML is an XML based markup language meant to create artificial intelligent applications. AIML makes it possible to create human interfaces while keeping the implementation simple to program, easy to understand and highly maintainable.</p>
+     <h3>History</h3><hr><br>
+   <p> The XML dialect called AIML was developed by Richard Wallace and a worldwide free software community between 1995 and 2002. AIML formed the basis for what was initially a highly extended Eliza called "A.L.I.C.E.." ("Artificial Linguistic Internet Computer Entity"), which won the annual Loebner Prize Competition in Artificial Intelligence three times, and was also the Chatterbox Challenge Champion in 2004.
+
+Because the A.L.I.C.E. AIML set was released under the GNU GPL, and because most AIML interpreters are offered under a free or open source license, many "Alicebot clones" have been created based upon the original implementation of the program and its AIML knowledge base. Free AIML sets in several languages have been developed and made available by the user community. There are AIML interpreters available in Java, Ruby, Python, C++, C#, Pascal, and other languages (see below). A semi-formal specification and a W3C XML Schema for AIML are available.
+
+Since early 2013, The A.L.I.C.E foundation has been working on a draft specification for AIML 2.0.</p>
+<h3>AIML Tags</h3><hr><br>
+    <table style="width:100%">
+        <tr>
+        <th>&#60;aiml&#62;</th></tr>
+        <tr>
+        <th>&#60;category&#62;</th></tr>
+        <tr>
+        <th>&#60;pattern&#62;</th></tr>
+        <tr>
+        <th>&#60;template&#62;</th></tr>
+        <tr>
+        <th>&#60;star&#62;</th></tr>
+        <tr>
+        <th>&#60;srai&#62;</th></tr>
+        <tr>
+        <th>&#60;random&#62;</th></tr>
+        <tr>
+        <th>&#60;li&#62;</th></tr>
+        <tr>
+        <th>&#60;set&#62;</th></tr>
+        <tr>
+        <th>&#60;get&#62;</th></tr>
+       <tr>
+        <th>&#60;that&#62;</th></tr>
+        <tr>
+        <th>&#60;topic&#62;</th></tr>
+        <tr>
+        <th>&#60;think&#62;</th></tr>
+        <tr>
+        <th>&#60;condition&#62;</th></tr>
+    </table>
+    <h3>Example: </h3><hr><br>
+    <p><textarea disabled="true"><?xml version="1.0" encoding="UTF-8"?>
+     <aiml version="2.0">
+    <category>
+      <pattern>HI *</pattern>
+      <template>Hello world!</template>
+    </category>
+<category>
+      <pattern>What is a chatbot</pattern>
+      <template>
+        A chatbot is a computer program designed to respond
+        to text or voice inputs in natural language.
+      </template>
+    </category>
+     </aiml></textarea></p>
+    </div>
+
+    <!--source-->
+<div id="Source" class="tabcontent">
+  <h3>Source</h3><hr><br>
+    <p>
+        <big>Official Website <a href="http://www.aiml.foundation/" target= _blank> Click Here</a></big><br>
+        <big> Java Source <a href="https://www.tutorialspoint.com/aiml/aiml_first_application.htm" target= _blank> Click Here</a></big><br>
+        <big>Python Source <a href="https://www.devdungeon.com/content/ai-chat-bot-python-aiml" target= _blank> Click Here</a></big><br>
+        <big>Node JS Source <a href="https://www.npmjs.com/package/aiml" target= _blank> Click Here</a></big><br>
+        <big>Pandora Bots <a href="https://discover.bot/bot-talk/guide-to-bot-frameworks/pandorabots/" target= _blank> Click Here</a></big><br>
+    </p>
+</div>
+    
+
+
+
+
