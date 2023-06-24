@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode h2 {
+  color: black;
+}
+.dark-mode h5 {
+  color: black;
+}
+.dark-mode table{
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.dark-mode th{
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Black Ops One', cursive;
+  position: relative;
+}
+h2{
+    margin: auto;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h3{
+    margin: 0px;
+    font-size: 25px;
+    font-family: 'Caladea', serif;
+}
+h5{
+    margin: auto;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+img{
+    height: 150px;;
+    width: 100vw;
+    max-width: 100%;
+}
+big{
+    border: 2px solid red;
+    padding: 5px;
+    display: block;
+    border-radius: 2px;
+}
+table, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar button{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  padding: 5px 5px;
+  text-decoration: none;
+  width: 20%;
+  font-size: 25px;
+  background: #333;
+  border: 0px;
+}
+p{
+    text-align: left;
+    word-spacing: 1px;
+    word-wrap: break-word;
+    font-family: 'Rokkitt', serif;
+    
+}
+a{
+    text-decoration: none;
+}
+#navbar button:hover {
+  background-color: #ddd;
+  color: black;
+  transition: 0.5s ease;
+}
+
+#navbar button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+  margin-top: 0px
+}
+
+.sidenav button {
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Acme', sans-serif;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  background: none;
+  border: 0px;
+  width: 100%;
+}
+
+.sidenav button:hover {
+    background-color: grey;
+    color: #f1f1f1;
+    border: 0px;
+    transition-delay: 0.1s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 35px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav button {font-size: 18px;}
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+hr{
+   width:200px;
+   border:2px solid red;
+   float: left;
+   border-radius: 20px;
+   margin: auto;
+}
+textarea{
+    height: 250px;
+    width: 100%;
+    resize: none;
+    border-radius: 10px;
+    
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  height: 100%;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
