@@ -13,9 +13,9 @@
 <!--Nav bar-->
 <div id="navbar">
   <button style="font-size: 23px;" onclick="openNav()">&#9776;</button>
- <button class="tablinks" onclick="openInfo(event, 'Home')" id="defaultOpen">Home</button>
-  <button class="tablinks" onclick="openInfo(event, 'Setup')">Setup</button>
-  <button class="tablinks" onclick="openInfo(event, 'Source')">Source</button>
+ <button class="tablinks" onclick="openInfo(event, 'Jenis-Jenis Jaringan')" id="defaultOpen">Jenis-jenis jaringan</button>
+  <button class="tablinks" onclick="openInfo(event, 'Sistem Operasi Jaringan')">Sistem Operasi Jaringan</button>
+  <button class="tablinks" onclick="openInfo(event, 'Topologi Jaringan')">Topologi Jaringan</button>
   <button onclick="DarkMode()">&#9681;</button>
 </div>
 
