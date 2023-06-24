@@ -66,8 +66,8 @@ Dan MAN merupakan jaringan yang sering digunakan untuk dapat menghubungkan beber
    <h3>AIML</h3><hr><br>
     <p><b>Artificial Intelligence Modelling Language</b><br><b>Developed by:</b> <a href="https://en.wikipedia.org/wiki/Richard_Wallace_(scientist)"> Richard Wallace</a><br><b>Initial release:</b> July 16, 2001; 18 years ago<br><b>Latest release:</b> 2.1 (rev 1.0.2.22)
 (March 9, 2018; 2 years ago<br><b>Type of format:</b> Artificial intelligence<br> <b> Website:</b> <a href="http://www.aiml.foundation/">AIML Foundation</a></p>
-  <h3>What is AIML</h3><hr><br>
-    <p><mark>AIML</mark> stands for Artificial Intelligence Modelling Language. AIML is an XML based markup language meant to create artificial intelligent applications. AIML makes it possible to create human interfaces while keeping the implementation simple to program, easy to understand and highly maintainable.</p>
+  <h3>Apa AIML</h3><hr><br>
+    <p><mark>AIML</mark> AIML adalah singkatan dari Bahasa Markup Kecerdasan Buatan. AIML adalah bahasa markup berbasis XML yang dimaksudkan untuk membuat aplikasi kecerdasan buatan. AIML memungkinkan untuk membuat antarmuka manusia sekaligus menjaga implementasi tetap sederhana untuk diprogram, mudah dipahami, dan sangat mudah dipelihara..</p>
      <h3>History</h3><hr><br>
    <p> The XML dialect called AIML was developed by Richard Wallace and a worldwide free software community between 1995 and 2002. AIML formed the basis for what was initially a highly extended Eliza called "A.L.I.C.E.." ("Artificial Linguistic Internet Computer Entity"), which won the annual Loebner Prize Competition in Artificial Intelligence three times, and was also the Chatterbox Challenge Champion in 2004.
 
@@ -103,26 +103,11 @@ Since early 2013, The A.L.I.C.E foundation has been working on a draft specifica
         <tr>
         <th>&#60;think&#62;</th></tr>
         <tr>
-        <th>&#60;condition&#62;</th></tr>
-    </table>
-    <h3>Example: </h3><hr><br>
-    <p><textarea disabled="true"><?xml version="1.0" encoding="UTF-8"?>
-     <aiml version="2.0">
-    <category>
-      <pattern>HI *</pattern>
-      <template>Hello world!</template>
-    </category>
-<category>
-      <pattern>What is a chatbot</pattern>
-      <template>
-        A chatbot is a computer program designed to respond
-        to text or voice inputs in natural language.
-      </template>
-    </category>
-     </aiml></textarea></p>
-    </div>
-
-    <!--source-->
+        <th>&#60;condition&#62;</th></
+     tr>
+       </table>
+   
+<!--source-->
 <div id="Source" class="tabcontent">
   <h3>Source</h3><hr><br>
     <p>
@@ -133,7 +118,11 @@ Since early 2013, The A.L.I.C.E foundation has been working on a draft specifica
         <big>Pandora Bots <a href="https://discover.bot/bot-talk/guide-to-bot-frameworks/pandorabots/" target= _blank> Click Here</a></big><br>
     </p>
 </div>
-    
+
+
+</body>
+</html>
+
 
 
 
