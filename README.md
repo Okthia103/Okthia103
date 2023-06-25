@@ -120,13 +120,5 @@ Since early 2013, The A.L.I.C.E foundation has been working on a draft specifica
 </div>
 
 
-</body>
-</html>
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 
 
